@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dependancies/styles.css">
-    <script src="./dependancies/script.js"></script>
-    <title>Spandan 23 - XIE</title>
-</head>
-
-<body>
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-            <div class="nav-title">
-                Spandan '23
-            </div>
-        </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-
-        <div class="nav-links">
-            <a href="#" target="_blank">About</a>
-            <a href="#" target="_blank">Contact Us</a>
-            <a href="#" target="_blank">Socials</a>
-            <a href="https://www.xavier.ac.in/Spandan.php" target="_blank">Spandan '22</a>
-            <a href="#" target="_blank">Register</a>
-            <a href="#" target="_blank">Transmission '23</a>
-        </div>
-        <h1>Welcome to Spandan 23.</h1>
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/styles.css" />
+		<title>Spandan '23</title>
+	</head>
+	<body>
+		<header class="headNav">
+			<input id="nav-toggle" type="checkbox" />
+			<div class="logo">SPANDAN 23</div>
+			<ul class="links">
+				<li><a href="home.html" class="navLinks">Sponsors</a></li>
+				<li><a href="home.html" class="navLinks">Home</a></li>
+				<li><a href="about.html" class="navLinks">About</a></li>
+				<li><a href="about.html" class="navLinks">Contact</a></li>
+				<li><a href="signup.html" class="navLinks">PY Spandan</a></li>
+				<li><a href="login.html" class="navLinks">Transmission '23</a></li>
+			</ul>
+			<label for="nav-toggle" class="icon-burger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</label>
+		</header>
+		<div class="hero" id="timeTravel">
+			<h2 class="heroHeading">Time Travel</h2>
+			<div class="heroText">
+				Lorem ipsum dolor sit amet consectetur adipisicing. <br />
+				Lorem ipsum dolor sit amet.
+			</div>
+			<a href="#" class="scheduleBtn">Check Schedule</a>
+		</div>
+		<div class="hero" id="performingArts">
+			<h2 class="heroHeading">Performing Arts</h2>
+			<div class="heroText">
+				Come be a part of the most <br />
+				mesmerizing dance and musical performances!
+			</div>
+			<a href="#" class="scheduleBtn">Check Schedule</a>
+		</div>
+		<div class="hero" id="fineArts">
+			<h2 class="heroHeading">Fine Arts</h2>
+			<div class="heroText">
+				Experience a treat to your eyes, and quench your <br />
+				soul's thirst for exquisite art.
+			</div>
+			<a href="#" class="scheduleBtn">Check Schedule</a>
+		</div>
+		<div class="foot">
+			<a class="copyright" href="#">&copy; 2022 | XieFest</a>
+		</div>
+	</body>
 </html>
