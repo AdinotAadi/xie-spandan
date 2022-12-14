@@ -108,6 +108,7 @@
 	cursor: pointer;
 	text-decoration: none;
 	color: white;
+	background-color: black;
 	font-size: 25px;
 	border-bottom: 4px solid white;
 	border-right: 4px solid white;
